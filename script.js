@@ -62,7 +62,7 @@ const getQuote = () =>{
     fetch('https://type.fit/api/quotes')
     .then(response => response.json())
     .then(data => newQuote(data))
-    .catch(err =>  document.getElementById('error').innerHTML = 'Internet Seems to be out of order')
+//     .catch(err =>  document.getElementById('error').innerHTML = 'Internet Seems to be out of order')
 }
 
 const tweet = () =>{
